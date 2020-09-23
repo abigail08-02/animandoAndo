@@ -1,0 +1,18 @@
+.saludo{
+    width: 100px;
+    height: 100px;
+    animation: palpitar 0.5s infinite;
+}
+
+@keyframes palpitar{
+    0%{
+        background-color: rgb(255, 204, 204);
+    }
+    50%{
+        background-color: rgb(255, 0, 102);
+    }
+    100%{
+        background-color: rgb(255, 204, 204);
+    }
+    
+}
